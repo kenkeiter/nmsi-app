@@ -16,17 +16,17 @@ Also, there's a cool rake task to load the lib and start an IRB console. Start i
 
 Using `bundle exec rake console`:
 
-  1.9.3-p194 :001 > all_materials = NMSI::Materials.all
-  1.9.3-p194 :002 > all_materials['data'].each{ |material| puts material['Material']['name'] }
-  Acrylic fabric
-  Aluminum
-  Aramid fabric
-  Carbon fiber
-  Corrugated box
-  Cotton fabric
-  Down
-  Epoxy resin
-  ...
+    1.9.3-p194 :001 > all_materials = NMSI::Materials.all
+    1.9.3-p194 :002 > all_materials['data'].each{ |material| puts material['Material']['name'] }
+    Acrylic fabric
+    Aluminum
+    Aramid fabric
+    Carbon fiber
+    Corrugated box
+    Cotton fabric
+    Down
+    Epoxy resin
+    ...
 
 ## Rules
 
